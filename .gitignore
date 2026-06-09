@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets & local config
+.env
+*.json.key
+gcp-*.json
+
+# Dagster local storage
+.dagster_home/
+tmp*/
+
+# OS noise
+.DS_Store
+Thumbs.db
