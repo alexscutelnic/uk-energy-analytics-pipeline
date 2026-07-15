@@ -2653,6 +2653,7 @@ dependencies = [
     { name = "dagster" },
     { name = "dagster-webserver" },
     { name = "dbt-bigquery" },
+    { name = "google-cloud-bigquery" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -2662,6 +2663,7 @@ requires-dist = [
     { name = "dagster", specifier = ">=1.13.8" },
     { name = "dagster-webserver", specifier = ">=1.13.8" },
     { name = "dbt-bigquery", specifier = ">=1.11.1" },
+    { name = "google-cloud-bigquery", specifier = ">=3.41.0" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
