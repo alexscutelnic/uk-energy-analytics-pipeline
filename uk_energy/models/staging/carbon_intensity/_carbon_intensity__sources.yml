@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: carbon_intensity
+    database: uk-energy-pipeline
+    schema: raw_dev
+    description: Raw landing data from the National Grid Carbon Intensity API, loaded by Dagster.
+    tables:
+      - name: carbon_intensity
+        description: Half-hourly UK grid carbon intensity readings. Append-only; may contain duplicate readings from repeated ingestion runs.
