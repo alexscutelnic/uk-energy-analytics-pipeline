@@ -24,6 +24,7 @@ renamed as (
         intensity_forecast          as forecast_gco2_per_kwh,
         intensity_actual            as actual_gco2_per_kwh,
         lower(intensity_index)      as intensity_band,
+        partition_date,
         ingested_at,
         source                      as source_url
     from deduplicated
