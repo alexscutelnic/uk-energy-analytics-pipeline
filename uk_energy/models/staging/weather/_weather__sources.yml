@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: weather
+    database: uk-energy-pipeline
+    schema: raw_dev
+    description: Raw hourly weather observations from the Open-Meteo archive API, loaded by Dagster.
+    tables:
+      - name: weather
+        description: Hourly weather for five UK cities. Append-only; may contain duplicate readings from repeated ingestion runs. Values are model reanalysis, snapped to the nearest grid cell.
